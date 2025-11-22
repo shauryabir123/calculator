@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="but1">1</button>
+    <button id="but2" >2</button>
+     <button id="but3">3</button>
+    <button id="but4">4</button>
+     <button id="but5">5</button>
+    <button id="but6">6</button>
+     <button id="but7">7</button>
+    <button id="but8">8</button>
+     <button id="but9">9</button>
+     <button id="but0">0</button>
+    <button id="butAC">AC</button>
+     <button id="buteq">=</button>
+    <button id="butplus">+</button>
+     <button id="butsub">-</button>
+    <button id="butstar">*</button>
+     <button id="butarrow"> <-- </button>
+    
+    
+    <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+    </div> -->
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Operations</title>
+</head>
+<body>
+
+    <h1>Simple Calculator</h1>
+    <p>Perform all Operations using JavaScript</p>
+    
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+
+    <script>
+        // 1. Create and assign initial variables
+        var num1 = 10;
+        var num2 = 2;
+
+        // 2. Perform the mathematical operations and store results
+        var add = num1 + num2;
+        var sub = num1 - num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+
+        // 3. Display the results in the corresponding HTML elements
+        document.getElementById("add").innerHTML = 
+            "The added value is: " + add;
+        
+        document.getElementById("sub").innerHTML = 
+            "The subtracted value is: " + sub;
+        
+        document.getElementById("mul").innerHTML = 
+            "The multiplied value is: " + mul;
+        
+        document.getElementById("div").innerHTML = 
+            "The divided value is: " + div;
+    </script>
+
+</body>
+</html>
+</div>
+</body>
+</html>
